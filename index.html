@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Soyus 9A</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="area">
+        <div class="n-a">
+          <a href="?m=home" class="lgn">Soyus 9A</a>
+          <div class="lsn">
+            <a href="?m=home" class="lsnt lsntt" data-trans="home">Home</a>
+            <a href="?m=data" class="lsnt" data-trans="data">Data</a>
+            <a href="?m=memory" class="lsnt" data-trans="memory">Memory</a>
+            <a href="?m=account" class="lsnt" data-trans="account">Account</a>
+            <!-- <a href="?m=account" class="acc"></a> -->
+          </div>
+          <img
+            src="img/menu-burger.png"
+            alt="img"
+            class="burger"
+            id="burgerbtn"
+            onclick="menu()"
+          />
+        </div>
+      </div>
+      <div class="area n" id="burger">
+        <div class="lnav">
+          <a href="?m=home" class="lsntb" data-trans="home">Home</a>
+          <a href="?m=data" class="lsntb" data-trans="data">Data</a>
+          <a href="?m=memory" class="lsntb" data-trans="memory">Memory</a>
+          <a href="?m=account" class="lsntb" data-trans="account">Account</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="area">
+        <div class="home n" id="home">
+          <div class="jdl">
+            <h1 data-trans="jdlhm">Welcome To The Soyus 9A Website</h1>
+          </div>
+          <div class="f">
+            <a href="" class="ktkimg">
+              <p class="txtki">Soyus 9A</p>
+              <div class="fimg">
+                <img src="img/pf.png" alt="img" class="img" />
+              </div>
+              <p class="txtki3" data-trans="chhm">
+                Click Here To Go To Soyus 9A.
+              </p>
+            </a>
+          </div>
+
+          <div class="grs">
+            <div class="grss"></div>
+          </div>
+
+          <div class="ktk">
+            <div class="ktk2">
+              <h2 class="txt" data-trans="dmhm">
+                Our website Provides A Data Menu. Data Menu Contains Soyus 9A
+                Data
+              </h2>
+              <div class="f">
+                <a href="?m=data" class="btn" data-trans="vdhm">View Data ➔</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="data n" id="data">
+          <div class="f">
+            <div class="lki n" id="lki">
+              <a href="?m=data&p=jp" class="ktkimg2">
+                <div class="fimg2">
+                  <img src="img/schedule.png" alt="img" class="img2" />
+                </div>
+                <p class="txtki2" data-trans="jpd">Jadwal Pelajaran</p>
+                <p class="txtki22" data-trans="chjpd">
+                  Click Here to View the Lesson Schedule.
+                </p>
+              </a>
+              <a href="?m=data&p=jt" class="ktkimg2">
+                <div class="fimg2">
+                  <img src="img/calendar2.png" alt="img" class="img2" />
+                </div>
+                <p class="txtki2" data-trans="jtd">Jadwal Piket</p>
+                <p class="txtki22" data-trans="chjtd">
+                  Click Here to View the Picket Schedule.
+                </p>
+              </a>
+              <!-- <a href="?m=data&p=ac" class="ktkimg2">
+                <div class="fimg2">
+                  <img src="img/calendar.png" alt="img" class="img2" />
+                </div>
+                <p class="txtki2">Acara</p>
+                <p class="txtki22">Click Here To Go To Acara.</p>
+              </a> -->
+              <a href="?m=data&p=ng" class="ktkimg2">
+                <div class="fimg2">
+                  <img src="img/id-card.png" alt="img" class="img2" />
+                </div>
+                <p class="txtki2" data-trans="ngd">Nama Guru</p>
+                <p class="txtki22" data-trans="chngd">
+                  Click Here to Go to Teacher's Name.
+                </p>
+              </a>
+              <a href="?m=data&p=ns" class="ktkimg2">
+                <div class="fimg2">
+                  <img src="img/shortlist.png" alt="img" class="img2" />
+                </div>
+                <p class="txtki2" data-trans="nsd">Nama Siswa</p>
+                <p class="txtki22" data-trans="chnsd">
+                  Click Here To Go To Nama Siswa.
+                </p>
+              </a>
+              <a href="?m=data&p=al" class="ktkimg2 disab">
+                <div class="fimg2">
+                  <img src="img/gallery.png" alt="img" class="img2" />
+                </div>
+                <p class="txtki2" data-trans="ald">Album</p>
+                <p class="txtki22" data-trans="chald">
+                  Click Here To Go To Album.
+                </p>
+              </a>
+            </div>
+            <div class="ljp n" id="ljp">
+              <div class="pilljp">
+                <h1 class="trpljp" id="pjp1" onclick="gmjad(1)" data-trans="hi">
+                  Hari Ini
+                </h1>
+                <h1 class="flpljp" id="pjp2" onclick="gmjad(2)" data-trans="sm">
+                  Semua
+                </h1>
+              </div>
+              <div class="bodyljp">
+                <div class="bodyljp2">
+                  <div class="otljp">
+                    <div class="f">
+                      <h1 class="jdlljp" data-trans="jpd">Jadwal Pelajaran</h1>
+                    </div>
+                    <div class="f">
+                      <input
+                        type="search"
+                        class="searchi n"
+                        id="searchi"
+                        data-transph="kp"
+                        placeholder="Ketik Pelajaran"
+                        onchange="searchf(this.value)"
+                      />
+                    </div>
+                    <div class="f">
+                      <select
+                        class="dayi n"
+                        name="dayi"
+                        id="dayi"
+                        onchange="dayselect(this.value)"
+                      >
+                        <option value="1" data-trans="h1">SENIN</option>
+                        <option value="2" data-trans="h2">SELASA</option>
+                        <option value="3" data-trans="h3">RABU</option>
+                        <option value="4" data-trans="h4">KAMIS</option>
+                        <option value="5" data-trans="h5">JUMAT</option>
+                      </select>
+                    </div>
+                    <h1 class="ttfn" id="ttfn">?</h1>
+                    <p class="subjdljp" id="sjjp"></p>
+                    <div class="jadcp" id="jadcpid"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ljp n" id="ljpi">
+              <div class="pilljp">
+                <h1
+                  class="trpljp"
+                  id="pjpi1"
+                  onclick="gmjad2(1)"
+                  data-trans="hi"
+                >
+                  Hari Ini
+                </h1>
+                <h1
+                  class="flpljp"
+                  id="pjpi2"
+                  onclick="gmjad2(2)"
+                  data-trans="sm"
+                >
+                  Semua
+                </h1>
+              </div>
+              <div class="bodyljp">
+                <div class="bodyljp2">
+                  <div class="otljp">
+                    <div class="f">
+                      <h1 class="jdlljp" data-trans="jtd">Jadwal Piket</h1>
+                    </div>
+                    <div class="f">
+                      <input
+                        type="search"
+                        class="searchi n"
+                        id="searchii"
+                        data-transph="kna"
+                        placeholder="Ketik Nama/Absen"
+                        onchange="searchf2(this.value)"
+                      />
+                    </div>
+                    <div class="f">
+                      <select
+                        class="dayi n"
+                        name="dayi"
+                        id="dayii"
+                        onchange="dayselect(this.value)"
+                      >
+                        <option value="1" data-trans="h1">SENIN</option>
+                        <option value="2" data-trans="h2">SELASA</option>
+                        <option value="3" data-trans="h3">RABU</option>
+                        <option value="4" data-trans="h4">KAMIS</option>
+                        <option value="5" data-trans="h5">JUMAT</option>
+                      </select>
+                    </div>
+                    <h1 class="ttfn" id="ttfni">?</h1>
+                    <p class="subjdljp" id="sjjt"></p>
+                    <div class="jadcp" id="jadcpidi"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ljp n" id="lns">
+              <div class="bodyljp">
+                <div class="bodyljp2">
+                  <div class="otljp">
+                    <div class="f">
+                      <h1 class="jdlljp" data-trans="nsd">Nama Siswa</h1>
+                    </div>
+                    <div class="f">
+                      <input
+                        type="search"
+                        class="searchi"
+                        id="searchii"
+                        data-transph="kna"
+                        placeholder="Ketik Nama/Absen"
+                        onchange="searchfns(this.value)"
+                      />
+                    </div>
+                    <div class="jadcp jrk3" id="nscpid"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ljp n" id="lng">
+              <div class="bodyljp">
+                <div class="bodyljp2">
+                  <div class="otljp">
+                    <div class="f">
+                      <h1 class="jdlljp" data-trans="ngd">Nama Guru</h1>
+                    </div>
+                    <div class="f">
+                      <input
+                        type="search"
+                        class="searchi"
+                        id="searchng"
+                        data-transph="knn"
+                        placeholder="Ketik Nama/Nomor"
+                        onchange="searchfng(this.value)"
+                      />
+                    </div>
+                    <div class="jadcp jrk3" id="ngcpid"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="area">
+        <div class="fot">
+          <div class="trans" onclick="toggleTrans()">
+            <img src="img/trans.png" alt="img" />
+            <p id="transt">English</p>
+          </div>
+          <div class="bot">
+            <p>©2024 Soyus9A</p>
+            <div class="sm">
+              <a href="https://www.instagram.com/9apoyy/" target="_blank"
+                ><img src="img/ig.png" alt="img"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
