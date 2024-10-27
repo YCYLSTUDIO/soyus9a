@@ -555,12 +555,3 @@ function sjjtfunc(num, bool) {
     }
   }
 }
-
-function updateScreenSize() {
-  const screenWidth = window.innerWidth;
-  const screenHeight = window.innerHeight;
-  alert(`Lebar layar: ${screenWidth}px, Tinggi layar: ${screenHeight}px`);
-}
-
-updateScreenSize();
-window.addEventListener("resize", updateScreenSize);
