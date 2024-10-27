@@ -562,7 +562,7 @@ main {
     font-size: 2.5svh;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .ktkimg2 {
     width: 75%;
   }
@@ -580,7 +580,7 @@ main {
     font-size: 2.5svh;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .txt {
     font-size: 2.8svh;
   }
@@ -623,7 +623,7 @@ main {
     font-size: 2.5svh;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .fbtnjp {
     width: 100%;
     margin: 3svh 0svh 5svh 0svh;
