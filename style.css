@@ -91,12 +91,13 @@ footer {
   color: rgb(173, 173, 173);
 }
 .lsntt {
+  font-weight: bold;
   text-decoration: underline;
 }
 .lgn {
   color: white;
   margin: 0svh;
-  font-size: 3.2svh;
+  font-size: 3.5svh;
   font-weight: bolder;
   margin: 0svh 4svh;
   cursor: pointer;
@@ -540,6 +541,12 @@ main {
     margin: 3svh 0svh;
     flex-wrap: nowrap;
   }
+  .lsnt {
+    font-size: 2.5svh;
+  }
+  .lgn {
+    font-size: 3.5svh;
+  }
 }
 @media screen and (max-width: 1050px) {
   .area {
@@ -561,8 +568,14 @@ main {
   .txtki3 {
     font-size: 2.5svh;
   }
+  .lsnt {
+    font-size: 2.2svh;
+  }
+  .lgn {
+    font-size: 3.2svh;
+  }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .ktkimg2 {
     width: 75%;
   }
@@ -580,7 +593,7 @@ main {
     font-size: 2.5svh;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   .txt {
     font-size: 2.8svh;
   }
@@ -623,7 +636,7 @@ main {
     font-size: 2.5svh;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .fbtnjp {
     width: 100%;
     margin: 3svh 0svh 5svh 0svh;
@@ -673,6 +686,12 @@ main {
   }
   .txtki3 {
     font-size: 2.3svh;
+  }
+  .lsnt {
+    font-size: 2svh;
+  }
+  .lgn {
+    font-size: 3svh;
   }
 }
 
