@@ -25,7 +25,7 @@ nav {
   /* position: fixed; */
   /* top: 0; */
   transition: all 0.5s ease;
-  padding-bottom: 2svh;
+  padding-bottom: 2vh;
 }
 main {
   width: 100%;
@@ -55,14 +55,14 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  gap: 1svh;
+  gap: 1vh;
   background-color: rgb(32, 32, 32);
-  padding: 2svh 0svh;
+  padding: 2vh 0vh;
 }
 .n-a {
   width: 100%;
   height: 10vh;
-  height: 10svh;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,7 +70,7 @@ footer {
 .lsnt {
   color: white;
   margin: 0px;
-  font-size: 2.5svh;
+  font-size: 2.5vh;
   font-weight: lighter;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -79,12 +79,12 @@ footer {
 .lsntb {
   color: rgb(235, 235, 235);
   margin: 0px;
-  font-size: 3svh;
+  font-size: 3vh;
   font-weight: bold;
   transition: all 0.2s ease;
   cursor: pointer;
   text-decoration: none;
-  margin: 0svh 4svh;
+  margin: 0vh 4vh;
 }
 .lsnt:hover,
 .lsntb:hover {
@@ -96,10 +96,10 @@ footer {
 }
 .lgn {
   color: white;
-  margin: 0svh;
-  font-size: 3.5svh;
+  margin: 0vh;
+  font-size: 3.5vh;
   font-weight: bolder;
-  margin: 0svh 4svh;
+  margin: 0vh 4vh;
   cursor: pointer;
   text-decoration: none;
 }
@@ -107,23 +107,23 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2svh;
-  margin: 0svh 4svh;
+  gap: 2vh;
+  margin: 0vh 4vh;
 }
 .acc {
   width: 5vh;
-  width: 5svh;
+  width: 5vh;
   height: 5vh;
-  height: 5svh;
+  height: 5vh;
   background-color: white;
   border-radius: 50%;
-  margin: 0svh 1svh;
+  margin: 0vh 1vh;
 }
 .burger {
   height: 40%;
   width: fit-content;
   filter: brightness(0) invert(1);
-  margin: 0svh 4svh;
+  margin: 0vh 4vh;
   cursor: pointer;
   text-decoration: none;
 }
@@ -141,8 +141,8 @@ main {
 .jdl {
   width: 100%;
   text-align: center;
-  margin-top: 10svh;
-  margin-bottom: 5svh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,16 +150,16 @@ main {
 .jdl h1 {
   width: 80%;
   margin: 0px;
-  font-size: 6svh;
+  font-size: 6vh;
   color: white;
 }
 .ktkimg {
   width: 50%;
   height: fit-content;
-  border-radius: 1svh;
-  padding: 3svh 3svh;
+  border-radius: 1vh;
+  padding: 3vh 3vh;
   aspect-ratio: 16 / 9;
-  margin-bottom: 20svh;
+  margin-bottom: 20vh;
   background-color: rgb(0, 117, 20);
   cursor: pointer;
   text-decoration: none;
@@ -167,8 +167,8 @@ main {
 .ktkimg2 {
   width: 35%;
   height: fit-content;
-  border-radius: 1svh;
-  padding: 3svh 3svh;
+  border-radius: 1vh;
+  padding: 3vh 3vh;
   background-color: rgb(0, 117, 20);
   cursor: pointer;
   text-decoration: none;
@@ -183,8 +183,8 @@ main {
   width: 100%;
   height: 10%;
   color: white;
-  margin: 0svh;
-  font-size: 2.5svh;
+  margin: 0vh;
+  font-size: 2.5vh;
   font-weight: bold;
 }
 .fimg {
@@ -208,8 +208,8 @@ main {
   width: 100%;
   height: 10%;
   color: white;
-  margin: 0svh;
-  font-size: 3svh;
+  margin: 0vh;
+  font-size: 3vh;
 }
 
 .txtki2 {
@@ -218,8 +218,8 @@ main {
   width: 100%;
   height: 10%;
   color: white;
-  margin: 0svh;
-  font-size: 3svh;
+  margin: 0vh;
+  font-size: 3vh;
   font-weight: bold;
 }
 .fimg2 {
@@ -228,7 +228,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2svh 0svh;
+  margin: 2vh 0vh;
 }
 .img2 {
   width: 40%;
@@ -240,8 +240,8 @@ main {
   width: 100%;
   height: 10%;
   color: white;
-  margin: 0svh;
-  font-size: 2.3svh;
+  margin: 0vh;
+  font-size: 2.3vh;
 }
 
 .grs {
@@ -253,7 +253,7 @@ main {
 }
 .grss {
   width: 90%;
-  height: 0.25svh;
+  height: 0.25vh;
   background-color: rgb(189, 189, 189);
 }
 .ktk {
@@ -262,32 +262,32 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10svh;
-  margin-bottom: 20svh;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
 }
 .ktk2 {
   width: 80%;
   height: fit-content;
-  padding: 10svh 5svh;
+  padding: 10vh 5vh;
   background-color: rgb(34, 34, 34);
-  border-radius: 1svh;
+  border-radius: 1vh;
 }
 .txt {
   color: white;
-  margin: 0svh;
-  font-size: 3.5svh;
+  margin: 0vh;
+  font-size: 3.5vh;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 2svh;
+  margin-bottom: 2vh;
 }
 .btn {
-  font-size: 2svh;
+  font-size: 2vh;
   color: black;
   background-color: white;
-  border: 0svh;
-  outline: 0svh;
-  border-radius: 3svh;
-  padding: 1.2svh 4svh;
+  border: 0vh;
+  outline: 0vh;
+  border-radius: 3vh;
+  padding: 1.2vh 4vh;
   cursor: pointer;
   text-decoration: none;
 }
@@ -307,20 +307,20 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2svh 4svh;
-  border-radius: 1svh;
+  padding: 2vh 4vh;
+  border-radius: 1vh;
   background-color: rgb(34, 34, 34);
   cursor: pointer;
   text-decoration: none;
 }
 .trans img {
   width: fit-content;
-  height: 2svh;
-  margin-right: 2svh;
+  height: 2vh;
+  margin-right: 2vh;
 }
 .trans p {
-  margin: 0svh;
-  font-size: 2svh;
+  margin: 0vh;
+  font-size: 2vh;
   color: white;
 }
 .bot {
@@ -329,30 +329,30 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2svh;
-  margin-bottom: 5svh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
 }
 .bot p {
-  margin: 0svh;
-  font-size: 2svh;
+  margin: 0vh;
+  font-size: 2vh;
   color: white;
 }
 .sm {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2svh;
+  gap: 2vh;
 }
 .sm a {
   width: fit-content;
   height: fit-content;
-  margin-right: 2svh;
+  margin-right: 2vh;
   cursor: pointer;
   text-decoration: none;
 }
 .sm img {
   width: fit-content;
-  height: 2svh;
+  height: 2vh;
 }
 
 .data {
@@ -365,14 +365,14 @@ main {
   justify-content: center;
   align-items: start;
   flex-wrap: wrap;
-  gap: 3svh;
-  margin-top: 3svh;
-  margin-bottom: 10svh;
+  gap: 3vh;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
 }
 .ljp {
   width: 95%;
-  margin-top: 3svh;
-  margin-bottom: 10svh;
+  margin-top: 3vh;
+  margin-bottom: 10vh;
 }
 .pilljp {
   width: 100%;
@@ -383,28 +383,28 @@ main {
 .flpljp {
   width: auto;
   text-align: center;
-  margin: 0svh;
-  font-size: 3svh;
+  margin: 0vh;
+  font-size: 3vh;
   color: white;
   cursor: pointer;
   background-color: rgb(43, 43, 43);
-  padding: 2svh 3svh;
-  border-bottom: 0.2svh solid rgb(141, 141, 141);
+  padding: 2vh 3vh;
+  border-bottom: 0.2vh solid rgb(141, 141, 141);
 }
 .trpljp {
   width: auto;
   text-align: center;
-  margin: 0svh;
-  font-size: 3svh;
+  margin: 0vh;
+  font-size: 3vh;
   color: white;
   cursor: pointer;
   background-color: rgb(75, 75, 75);
-  padding: 2svh 3svh;
-  border-bottom: 0.2svh solid white;
+  padding: 2vh 3vh;
+  border-bottom: 0.2vh solid white;
 }
 .bodyljp {
   width: 100%;
-  min-height: 80svh;
+  min-height: 80vh;
   height: auto;
   background-color: rgb(75, 75, 75);
   /* overflow-y: scroll;
@@ -417,30 +417,30 @@ main {
   width: 90%;
   height: auto;
   /* background-color: rgb(255, 255, 255); */
-  margin-top: 6svh;
-  margin-bottom: 6svh;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
 }
 .fbtnjp {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2svh;
-  margin: 3svh 0svh;
+  gap: 2vh;
+  margin: 3vh 0vh;
 }
 .jdlljp {
   width: 90%;
-  margin: 0svh;
-  font-size: 3.3svh;
+  margin: 0vh;
+  font-size: 3.3vh;
   color: white;
   text-align: center;
 }
 .subjdljp {
   width: 90%;
-  margin: 0svh;
-  font-size: 3svh;
+  margin: 0vh;
+  font-size: 3vh;
   color: white;
-  margin-top: 3svh;
+  margin-top: 3vh;
 }
 .stljp,
 .otljp {
@@ -453,9 +453,9 @@ main {
   justify-content: start;
   align-items: start;
   flex-wrap: wrap;
-  gap: 2svh;
-  margin-top: 0.3svh;
-  margin-bottom: 3svh;
+  gap: 2vh;
+  margin-top: 0.3vh;
+  margin-bottom: 3vh;
 }
 .jadc {
   width: 100%;
@@ -464,51 +464,51 @@ main {
   justify-content: start;
   align-items: center;
   flex-wrap: wrap;
-  border-radius: 1svh;
+  border-radius: 1vh;
   background-color: white;
-  padding: 2svh 3svh;
-  gap: 1svh;
+  padding: 2vh 3vh;
+  gap: 1vh;
 }
 .jadcbp {
   background-color: #e7ffea;
 }
 .jpew {
   margin: 0px;
-  font-size: 3svh;
+  font-size: 3vh;
   color: rgb(255, 0, 0);
   font-weight: bold;
 }
 .jpem {
   margin: 0px;
-  font-size: 3svh;
+  font-size: 3vh;
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
 .dayi {
   width: 100%;
   height: auto;
-  font-size: 2.5svh;
-  padding: 1svh 0svh;
+  font-size: 2.5vh;
+  padding: 1vh 0vh;
   text-align: center;
   font-weight: bold;
-  margin-top: 1svh;
+  margin-top: 1vh;
 }
 .searchi {
   width: 100%;
   height: auto;
-  font-size: 2.5svh;
-  padding: 1svh 0svh;
+  font-size: 2.5vh;
+  padding: 1vh 0vh;
   text-align: center;
   font-weight: bold;
-  margin-top: 1svh;
+  margin-top: 1vh;
 }
 .ttfn {
-  font-size: 30svw;
+  font-size: 30vw;
   text-align: center;
   color: white;
 }
 .jrk3 {
-  margin: 3svh 0svh;
+  margin: 3vh 0vh;
 }
 
 @media screen and (max-width: 5500px) {
@@ -538,14 +538,14 @@ main {
   }
   .fbtnjp {
     width: 100%;
-    margin: 3svh 0svh;
+    margin: 3vh 0vh;
     flex-wrap: nowrap;
   }
   .lsnt {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
   .lgn {
-    font-size: 3.5svh;
+    font-size: 3.5vh;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -557,22 +557,22 @@ main {
   }
   .ktkimg {
     width: 50%;
-    padding: 3svh 3svh;
+    padding: 3vh 3vh;
   }
   .txtki {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
   .img {
     height: 70%;
   }
   .txtki3 {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
   .lsnt {
-    font-size: 2.2svh;
+    font-size: 2.2vh;
   }
   .lgn {
-    font-size: 3.2svh;
+    font-size: 3.2vh;
   }
 }
 @media screen and (max-width: 750px) {
@@ -581,65 +581,65 @@ main {
   }
   .ktkimg {
     width: 60%;
-    padding: 3svh 3svh;
+    padding: 3vh 3vh;
   }
   .txtki {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
   .img {
     height: 70%;
   }
   .txtki3 {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
 }
 @media screen and (max-width: 600px) {
   .txt {
-    font-size: 2.8svh;
+    font-size: 2.8vh;
   }
   .ljp {
     width: 85%;
   }
   .ktkimg {
     width: 70%;
-    padding: 3svh 3svh;
+    padding: 3vh 3vh;
   }
   .txtki {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
   .img {
     height: 70%;
   }
   .txtki3 {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
   .jdl h1 {
     width: 80%;
-    font-size: 5svh;
+    font-size: 5vh;
   }
   .ktk2 {
     width: 75%;
     height: fit-content;
-    padding: 10svh 5svh;
+    padding: 10vh 5vh;
   }
   .ktkimg {
     width: 65%;
-    padding: 3svh 3svh;
+    padding: 3vh 3vh;
   }
   .txtki {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
   .img {
     height: 70%;
   }
   .txtki3 {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
 }
 @media screen and (max-width: 500px) {
   .fbtnjp {
     width: 100%;
-    margin: 3svh 0svh 5svh 0svh;
+    margin: 3vh 0vh 5vh 0vh;
     flex-wrap: wrap;
   }
   .flpljp {
@@ -665,33 +665,33 @@ main {
   .ktk2 {
     width: 70%;
     height: fit-content;
-    padding: 10svh 5svh;
+    padding: 10vh 5vh;
   }
   .jdl h1 {
     width: 80%;
-    font-size: 4svh;
+    font-size: 4vh;
   }
   .txt {
-    font-size: 2.5svh;
+    font-size: 2.5vh;
   }
   .ktkimg {
     width: 65%;
-    padding: 3svh 3svh;
+    padding: 3vh 3vh;
   }
   .txtki {
-    font-size: 2.3svh;
+    font-size: 2.3vh;
   }
   .img {
     height: 70%;
   }
   .txtki3 {
-    font-size: 2.3svh;
+    font-size: 2.1vh;
   }
   .lsnt {
-    font-size: 2svh;
+    font-size: 2vh;
   }
   .lgn {
-    font-size: 3svh;
+    font-size: 3vh;
   }
 }
 
