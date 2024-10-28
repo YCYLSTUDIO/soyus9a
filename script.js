@@ -400,7 +400,7 @@ function searchf2(val) {
     const jadcElements = document.querySelectorAll(".jadc2");
 
     jadcElements.forEach((jadc) => {
-      if (jadc.dataset.abs && jadc.dataset.abs.includes(input)) {
+      if (jadc.dataset.abs == input) {
         jadc.classList.remove("n");
       } else {
         jadc.classList.add("n");
@@ -426,7 +426,7 @@ function searchfns(val) {
     const jadcElements = document.querySelectorAll(".nsc");
 
     jadcElements.forEach((jadc) => {
-      if (jadc.dataset.abs && jadc.dataset.abs.includes(input)) {
+      if (jadc.dataset.abs == input) {
         jadc.classList.remove("n");
       } else {
         jadc.classList.add("n");
@@ -452,7 +452,7 @@ function searchfng(val) {
     const jadcElements = document.querySelectorAll(".ngc");
 
     jadcElements.forEach((jadc) => {
-      if (jadc.dataset.no && jadc.dataset.no.includes(input)) {
+      if (jadc.dataset.no == input) {
         jadc.classList.remove("n");
       } else {
         jadc.classList.add("n");
